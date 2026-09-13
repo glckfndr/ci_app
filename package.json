@@ -1,20 +1,23 @@
 {
-  "name": "ci_app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "jest": "^30.5.1",
-    "supertest": "^7.2.2"
-  }
+   "name": "ci_app",
+   "version": "1.0.0",
+   "main": "index.js",
+   "scripts": {
+      "format": "npx prettier . --write",
+      "format:check": "npx prettier . --check",
+      "start": "node server.js",
+      "test": "jest"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "description": "",
+   "dependencies": {
+      "express": "^5.2.1"
+   },
+   "devDependencies": {
+      "jest": "^30.5.1",
+      "prettier": "3.9.6",
+      "supertest": "^7.2.2"
+   }
 }
